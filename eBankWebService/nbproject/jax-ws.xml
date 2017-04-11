@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="eBankSignIn">
+      <implementation-class>eBank.eBankSignIn</implementation-class>
+    </service>
+    <service name="manageEmpData">
+      <implementation-class>eBank.manageEmpData</implementation-class>
+    </service>
+    <service name="manageCustData">
+      <implementation-class>eBank.manageCustData</implementation-class>
+    </service>
+    <service name="eBankLogin">
+      <implementation-class>eBank.eBankLogin</implementation-class>
+    </service>
+    <service name="retrieveData">
+      <implementation-class>eBank.retrieveData</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
